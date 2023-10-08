@@ -1,0 +1,22 @@
+.myTable .ant-table-thead>tr>th {
+    background-color: #F99832;
+    color: white;
+}
+
+.myTable .ant-table-tbody>tr>td {
+    color: #000;
+}
+
+.modal .ant-modal-content {
+    padding: 0px !important;
+}
+
+.myTable .ant-table-container .ant-table-content table .ant-table-thead tr th:first-child {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+.myTable .ant-table-container .ant-table-content table .ant-table-thead tr th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px !important;
+}
